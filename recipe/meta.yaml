@@ -1,5 +1,5 @@
 {% set name = "bpytop" %}
-{% set version = "1.0.64" %}
+{% set version = "1.0.65" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bpytop-{{ version }}.tar.gz
-  sha256: 758fa894d6147bbdaba51b7bd1c5bf878b7f742c59ac10c1bfac5c974e2ca20a
+  sha256: de16412efec4bde588466bfed2166908240b59d941c48fc6b9623e2fde0e05ef
 
 build:
   number: 0
